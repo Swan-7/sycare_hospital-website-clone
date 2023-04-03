@@ -25,7 +25,7 @@ nav {
                     display: flex;
                 }
                 
-                &:hover::after {
+                &:not(.nav_logo, .btn):hover::after {
                     position: absolute;
                     content: "";
                     left: 0;
@@ -85,14 +85,6 @@ nav {
 
         .nav_logo h3 {
             color: $white-color;
-
-            &:hover {
-                display: flex;
-
-                &:hover::after {
-                    background: none;
-                }
-            }
         }
     }
 }
