@@ -12,6 +12,8 @@
         background: lighten($backgroundColor, 8%);
         box-shadow: 0 1rem 1.6rem rgba($black-color, $alpha: 0.2); //x-axis y-axis blur color
     }
+
+    
 }
 
 @mixin gradientBackground {
